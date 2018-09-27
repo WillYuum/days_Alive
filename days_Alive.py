@@ -49,8 +49,8 @@ def Days_Alive(year1,month1,day1, year2,month2,day2): # this is the main functio
 
 now = datetime.datetime.now()# gets the current date in digits
 
-print("Hello my aging friend! I want you to add your birthdate like this example:\n")
-print("Write your birthdate in digits\n")
+print("\nHello my aging friend! I want you to add your birthdate:\n")
+print("Your birthdate must be in numbers\n")
 
 
 
