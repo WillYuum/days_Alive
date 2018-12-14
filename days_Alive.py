@@ -19,6 +19,7 @@ def dateIsBefore(y1,m1,d1, y2,m2,d2): #it checks if the first date is before the
         if(m1 == m2):
             if(d1 < d2):
                 return True
+        print("Son you better stop playing with my program and add the date correctly")
         return False
 
 def daysInMonth(year , month): # it shows how many days are there in every month
